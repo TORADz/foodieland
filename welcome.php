@@ -33,7 +33,7 @@ $name = isset($_GET['name']) ? $_GET['name'] : "User";
 
   <script>
     setTimeout(function() {
-      window.location.href = "landing_page.html";
+      window.location.href = "index.html";
     }, 4000);
   </script>
 </body>
