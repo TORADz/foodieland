@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(232, 252, 249, 0.443);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    width: 500px;
+    margin: 80px auto;
+    min-height: 200px;
+    color: #333;
+    /* text-align: left; */
+}
+
+.container h1{
+   margin-bottom: 30px;
+}
+
+form{
+   /*  display: flex;
+    flex-direction: column; */
+    margin-top: 30px;
+}
+
+label{
+    padding-bottom: 10px;
+   /*  margin-bottom: 10px; */
+}
+
+input:not([type="checkbox"]){
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(143, 142, 142);
+    background-color: transparent;
+}
+
+button{
+   margin-left: 150px;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    width: 200px;
+    background: rgba(121, 211, 247, 0.379);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container .lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lines p{
+    width: 50px;
+    /* text-align: center; */
+}
+
+.lines div{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+   /*  margin-right: 10px; */
+}
